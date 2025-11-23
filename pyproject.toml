@@ -1,0 +1,17 @@
+[project]
+name = "sim-face-clustering"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "face-recognition-models",
+    "opencv-python>=4.12.0.88",
+    "pillow>=12.0.0",
+    "pyvis>=0.3.2",
+    "scikit-learn>=1.7.2",
+    "streamlit>=1.51.0",
+]
+
+[tool.uv.sources]
+face-recognition-models = { git = "https://github.com/ageitgey/face_recognition_models" }
